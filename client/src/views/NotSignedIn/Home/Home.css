@@ -1,0 +1,67 @@
+/* Landing-page */
+body {
+  -webkit-box-shadow: inset 0px 0px 277px 200px rgba(0, 0, 0, 0.88);
+  -moz-box-shadow: inset 0px 0px 277px 200px rgba(0, 0, 0, 0.88);
+  box-shadow: inset 0px 0px 277px 200px rgba(0, 0, 0, 0.88);
+  background-image: url("../../../img/NetflixBackground.jpg");
+}
+
+.heading {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+#login-heading {
+  font-size: 65px;
+  margin-top: 90px;
+  text-align: center;
+  text-shadow: black 10px 3px 10px;
+}
+
+#login-text {
+  text-shadow: black 10px 3px 10px;
+  padding-top: 20px;
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: black 5px 3px 10px;
+}
+
+#login-text2 {
+  text-shadow: black 10px 3px 10px;
+  padding-top: 20px;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: black 5px 3px 10px;
+}
+
+.get-going {
+  padding-top: 20px;
+  height: 70px;
+  display: flex;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  outline: none;
+}
+
+.get-going input {
+  flex-grow: 2;
+  border: black solid 1px;
+}
+.get-going input::placeholder {
+  padding-left: 5%;
+  font-size: 22px;
+}
+
+.get-going button {
+  cursor: pointer;
+  flex-grow: 1;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  background-color: #e20813;
+  font-size: 27px;
+  border: black solid 1px;
+}

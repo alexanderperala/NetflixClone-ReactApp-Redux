@@ -1,0 +1,88 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  justify-content: space-between;
+  background-color: #0a0a0a;
+}
+
+#logo {
+  color: #e50914;
+  font-size: 27px;
+  margin-left: 20px;
+  margin-right: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#avatar {
+  border-radius: 4px;
+  height: 100%;
+  width: 35px;
+}
+
+.headerLinks {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  justify-content: space-between;
+}
+
+.headerLinks a {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 15px;
+  margin-left: 15px;
+  color: white;
+}
+
+.headerLinks a:hover {
+  color: rgba(255, 255, 255, 0.575);
+}
+
+.searchBarContainer {
+  display: inline-flex;
+}
+
+.searchbar {
+  width: 250px;
+  height: 35px;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: rgba(172, 172, 172, 0.068);
+  color: white;
+  border: solid 2px rgba(46, 46, 46, 0.685);
+}
+
+.searchbar::placeholder {
+  padding-left: 10px;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+}
+
+.headerLoginBtn {
+  background-color: #b8040d;
+  border-radius: 5px;
+  width: 100px;
+  color: white;
+  margin-right: 35px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.avatarContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.avatar {
+  max-height: 70%;
+  border-radius: 5px;
+}
+

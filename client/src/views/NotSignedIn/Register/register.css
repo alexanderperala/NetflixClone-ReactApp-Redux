@@ -1,0 +1,26 @@
+#logo {
+    color: #e50914;
+    font-size: 35px;
+    margin-left: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  #authentication,
+#login-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.registration {
+  height: auto !important;
+  width: 650px !important;
+}
+
+.reg-container {
+  display: flex !important;
+  gap: 10px;
+}
+
+.reg-container input {
+  display: block;
+}

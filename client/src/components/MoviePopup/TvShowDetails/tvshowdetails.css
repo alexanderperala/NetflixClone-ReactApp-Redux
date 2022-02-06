@@ -1,0 +1,61 @@
+.movie__detailsContainer {
+  width: 90%;
+  margin: 0 auto;
+  color: whitesmoke;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.movie__titleContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.iconsContainer {
+  display: flex;
+  gap: 6px;
+}
+
+.svgIcon {
+  width: auto;
+  height: 35px;
+}
+
+.movie__titleContainer svg {
+  width: 100%;
+  height: 100%;
+}
+
+.movie__yearAndTime {
+  font-weight: 300;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  line-height: 2rem;
+  color: rgb(167, 167, 167);
+}
+
+.movie__yearAndTime svg {
+  width: auto;
+  height: 25px;
+}
+.movie__details {
+  padding: 10px 0;
+  display: flex;
+  gap: 30px;
+}
+
+.movie__details p {
+  max-width: 75%;
+}
+
+.movie__details div {
+  flex-grow: 1;
+}
+
+.movie_ganreWrapper :first-child {
+  color: grey;
+}
+.movie_ganreWrapper p {
+  font-size: 0.9rem;
+}

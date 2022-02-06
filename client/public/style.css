@@ -1,0 +1,27 @@
+/* Global styles  */
+html,
+body {
+  height: 100%;
+  background-color: black;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+input,
+input:focus {
+  border: none;
+  outline: none;
+}
+
+#root {
+    height: 100%;
+}

@@ -1,0 +1,38 @@
+.row__poster {
+  object-fit: contain;
+  transition: transform 450ms;
+  border-radius: 5px;
+}
+
+.row__poster:hover {
+  transform: scale(1.1);
+}
+.sliderConteriner h3 {
+  width: 90%;
+  margin: 0 auto;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.02rem;
+}
+.slick-slider {
+  height: fit-content;
+  padding: 5px 0;
+  overflow: visible;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.slick-list {
+  margin: 0 -5px;
+}
+.slick-slide > div {
+  padding: 0 5px;
+}
+.slick-prev {
+  z-index: 1;
+  left: 25px;
+}
+.slick-next {
+  z-index: 1;
+  right: 25px;
+}
