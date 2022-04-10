@@ -1,5 +1,5 @@
 import axios from "axios";
-
+const API_KEY = `${process.env.REACT_APP_API_KEY}`;
 const initialState = {
   relatedMovies: [],
   movieDetails:[]
@@ -35,7 +35,7 @@ export default reducer;
 export function getRelatedMovies(selectedMovie) {
   return async function fetchRelatedMovies(dispatch, getState) {
     const relatedMovies = await axios.get(
-      `https://api.themoviedb.org/3/${selectedMovie.media_type}/${selectedMovie.id}/similar?api_key=3dbc082ccec2412b516c4f602a5274bd&page=1?`
+      `https://api.themoviedb.org/3/${selectedMovie.media_type}/${selectedMovie.id}/similar?api_key=${API_KEY}&page=1?`
     );
 
     dispatch({
@@ -49,7 +49,7 @@ export function getRelatedMovies(selectedMovie) {
 export function getDetails(selectedMovie) {
   return async function fetchRelatedMovies(dispatch, getState) {
     const response = await axios.get(
-      `https://api.themoviedb.org/3/${selectedMovie.media_type}/${selectedMovie.id}?api_key=3dbc082ccec2412b516c4f602a5274bd&append_to_response=videos`
+      `https://api.themoviedb.org/3/${selectedMovie.media_type}/${selectedMovie.id}?api_key=${API_KEY}&append_to_response=videos`
     );
 
     dispatch({
